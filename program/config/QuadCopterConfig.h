@@ -11,11 +11,12 @@
 #define configNRF				0       //if you no connect nRF module -> set 0.
 /* Status report functions */
 #define configSTATUS_NRF		0
-#define configSTATUS_SHELL		1
+#define configSTATUS_SHELL		0
 #define configSTATUS_GET_MOTORS	0
 #define configSTATUS_GET_ROLL_PITCH	0
 #define configSTATUS_GET_ROLL_PITCH_YAW	0
 #define configSTATUS_GET_ROLL_PITCH_MOTORS 0
+#define test_USART2 1	
 /* gui3 */
 #define configSTATUS_GET_MAG 0
 #define configSTATUS_GET_ACC 0
